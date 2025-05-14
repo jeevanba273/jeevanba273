@@ -20,6 +20,72 @@
   <img src="https://komarev.com/ghpvc/?username=jeevanba273&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
+## 📊 Contribution Insights
+
+<div align="center">
+  <!-- Latest GitHub Metrics Card -->
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jeevanba273&show_icons=true&hide_border=true&count_private=true&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC&icon_color=6FA4FC" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=jeevanba273&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak Stats" />
+  </a>
+</div>
+
+<!-- Skill Progress Bars -->
+<div align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC" alt="Top Languages" />
+</div>
+
+<!-- Snake animation -->
+<div align="center">
+  <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+</div>
+
+## 🚀 Tech Stack Spotlight
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65"/>
+        <br>Python
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65"/>
+        <br>JavaScript
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="65" height="65"/>
+        <br>Node.js
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65"/>
+        <br>React
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65"/>
+        <br>TypeScript
+      </td>
+      <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="SQL" width="65" height="65"/>
+        <br>SQL
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="65" height="65"/>
+        <br>MongoDB
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="65" height="65" style="background-color: #ffffff; border-radius: 8px; padding: 8px;"/>
+        <br>Express
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 🛠️ Arsenal of Skills & Technologies
 
 <p align="center">
@@ -49,22 +115,6 @@
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jeevanba273&show_icons=true&theme=tokyonight" alt="Jeevan's GitHub Stats" />
-</div>
-
-<div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=jeevanba273&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak Stats" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeevanba273&layout=compact&theme=tokyonight" alt="Top Languages" />
-</div>
 
 ## 🔥 Featured Projects
 
@@ -119,15 +169,22 @@
   </tr>
 </table>
 
-## 📈 My Contributions
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=jeevanba273&theme=algolia&column=7" alt="GitHub Trophies" />
+</div>
+
+## 📈 Activity Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevanba273&theme=tokyo-night" alt="Activity Graph" width="100%"/>
 </div>
 
-<!-- Snake animation -->
+## 💭 Quote of the Day
+
 <div align="center">
-  <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Developer Quote" />
 </div>
 
 ## 🌐 Connect With Me
