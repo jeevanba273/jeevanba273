@@ -132,6 +132,19 @@
       </p>
     </td>
     <td width="50%">
+      <h3 align="center">Donchian Channel Breakout Strategy</h3>
+      <p align="center">
+        <a href="https://github.com/jeevanba273/Donchian-Channel-Breakout-Strategy" target="_blank">
+          <img src="./assets/donchian-strategy.png" width="100%" alt="Donchian Strategy"/>
+        </a>
+        <p align="center">
+          Trading system that is based on Donchian Channel breakout patterns
+        </p>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">AI-Powered Stock Analysis</h3>
       <p align="center">
         <a href="https://github.com/jeevanba273/AI-Powered-Stock-Analysis" target="_blank">
@@ -142,8 +155,6 @@
         </p>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3 align="center">Black-Scholes Option Price Calculator</h3>
       <p align="center">
@@ -152,17 +163,6 @@
         </a>
         <p align="center">
           Implementation of the Black-Scholes model for options pricing analysis
-        </p>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">Donchian Channel Breakout Strategy</h3>
-      <p align="center">
-        <a href="https://github.com/jeevanba273/Donchian-Channel-Breakout-Strategy" target="_blank">
-          <img src="./assets/donchian-strategy.png" width="100%" alt="Donchian Strategy"/>
-        </a>
-        <p align="center">
-          Trading system based on Donchian Channel breakout patterns
         </p>
       </p>
     </td>
