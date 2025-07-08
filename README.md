@@ -24,7 +24,7 @@
 
 <div align="center">
   <!-- Latest GitHub Metrics Card -->
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=jeevanba273&show_icons=true&hide_border=true&count_private=true&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC&icon_color=6FA4FC" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jeevanba273&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
 </div>
 
 <div align="center">
@@ -35,7 +35,7 @@
 
 <!-- Skill Progress Bars -->
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC" alt="Top Languages" />
 </div>
 
 <!-- Snake animation -->
