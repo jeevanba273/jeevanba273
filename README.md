@@ -12,7 +12,7 @@
 
 - 🎓 Computer Science student at VIT, Vellore (Class of 2025)
 - 💻 Passionate about Quantitative Finance, Algorithmic Trading, Machine Learning and Data Analysis
-- 🌐 Founder of [Finance Fluent Blog](https://financefluentblog.com/)
+- 🌐 I run the [Finance Fluent Blog](https://financefluentblog.com/)
 - 🔍 Currently exploring AI and ML applications in financial markets
 - 🌱 Learning advanced statistical models for risk assessment
 
