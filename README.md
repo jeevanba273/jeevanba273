@@ -40,7 +40,7 @@
 
 <!-- Snake animation -->
 <div align="center">
-  <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/jeevanba273/jeevanba273/output/github-contribution-grid-snake.svg" />
 </div>
 
 ## 🚀 Tech Stack Spotlight
