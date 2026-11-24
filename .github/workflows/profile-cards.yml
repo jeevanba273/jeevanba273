@@ -1,0 +1,64 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # daily at 02:30 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-cards.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Each card is generated here and stored in the repo, so the README no
+      # longer depends on a third-party server. If a card fails (for example a
+      # rate limit), the previous file is kept and the other cards still update.
+      - name: Stats card
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=jeevanba273&show_icons=true&theme=tokyonight
+          path: assets/cards/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Top languages card
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC
+          path: assets/cards/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Trophy card
+        continue-on-error: true
+        uses: ryo-ma/github-profile-trophy@2ba2fe648c4e9b17d66e01bec285e083ca1824d3 # v1.0
+        with:
+          username: jeevanba273
+          output_path: assets/cards/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: algolia
+
+      - name: Commit changed cards
+        run: |
+          [ -d assets/cards ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cards
+          git diff --cached --quiet && exit 0
+          git commit -m "Update profile cards"
+          git push
