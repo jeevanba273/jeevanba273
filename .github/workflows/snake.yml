@@ -22,5 +22,7 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          author: jeevanba273 <jeevanscience273@gmail.com>
+          committer: jeevanba273 <jeevanscience273@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
