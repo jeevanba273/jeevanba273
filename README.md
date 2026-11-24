@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=4000&pause=1000&color=6FA4FC&center=true&vCenter=true&random=false&width=600&height=60&lines=👋+Hello%2C+I'm+Jeevan!;👋+Welcome+to+my+GitHub+Profile!;👋+Turning+Data+into+Insights;👋+Finance+%26+Code+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=4000&pause=1000&color=6FA4FC&center=true&vCenter=true&random=false&width=600&height=60&lines=👋+Hello%2C+I'm+Jeevan!;👋+Welcome+to+my+GitHub+Profile!;👋+Turning+Data+into+Insights;👋+Finance+%26+Code+Enthusiast" alt="Typing SVG" />
   </a>
 </div>
 
@@ -24,7 +24,7 @@
 
 <div align="center">
   <!-- Latest GitHub Metrics Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=jeevanba273&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/jeevanba273/jeevanba273/cards/stats.svg" alt="GitHub Stats" />
 </div>
 
 <div align="center">
@@ -35,7 +35,7 @@
 
 <!-- Skill Progress Bars -->
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/jeevanba273/jeevanba273/cards/top-langs.svg" alt="Top Languages" />
 </div>
 
 <!-- Snake animation -->
@@ -49,37 +49,37 @@
   <table>
     <tr>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/python-icon.svg" alt="Python" width="65" height="65"/>
         <br>Python
       </td>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/js-icon.svg" alt="JavaScript" width="65" height="65"/>
         <br>JavaScript
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/nodejs/nodejs-original.svg" alt="Node.js" width="65" height="65"/>
         <br>Node.js
       </td>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/react-icon.svg" alt="React" width="65" height="65"/>
         <br>React
       </td>
     </tr>
     <tr>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/ts-icon.svg" alt="TypeScript" width="65" height="65"/>
         <br>TypeScript
       </td>
       <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="SQL" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/mysql-icon.svg" alt="SQL" width="65" height="65"/>
         <br>SQL
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="65" height="65"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="65" height="65"/>
         <br>MongoDB
       </td>
       <td align="center" width="96">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="65" height="65" style="background-color: #ffffff; border-radius: 8px; padding: 8px;"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.18.0/icons/express/express-original.svg" alt="Express" width="65" height="65" style="background-color: #ffffff; border-radius: 8px; padding: 8px;"/>
         <br>Express
       </td>
     </tr>
@@ -172,13 +172,13 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jeevanba273&theme=algolia&column=7" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/jeevanba273/jeevanba273/cards/trophy.svg" alt="GitHub Trophies" />
 </div>
 
 ## 📈 Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeevanba273&theme=tokyo-night" alt="Activity Graph" width="100%"/>
+  <img src="https://activity-graph-tawny.vercel.app/graph?username=jeevanba273&theme=tokyo-night" alt="Activity Graph" width="100%"/>
 </div>
 
 ## 💭 Quote of the Day
@@ -204,6 +204,6 @@
 <!-- Dynamic typing effect -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Quantitative+Finance+Enthusiast;Options+Trader+and+Investor;Computer+Science+Student;AI+%26+ML+Developer;Always+Learning+New+Things" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Quantitative+Finance+Enthusiast;Options+Trader+and+Investor;Computer+Science+Student;AI+%26+ML+Developer;Always+Learning+New+Things" alt="Typing SVG" />
   </a>
 </div>
