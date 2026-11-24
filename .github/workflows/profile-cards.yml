@@ -19,18 +19,23 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # The cards live on the separate "cards" branch, so main only holds
+      # hand-written commits. Start from the published cards: if one fails to
+      # build today (for example a rate limit), yesterday's version is kept.
+      - name: Fetch the published cards
+        run: |
+          mkdir -p dist
+          for f in stats top-langs trophy; do
+            curl -fsSL -o "dist/$f.svg" "https://raw.githubusercontent.com/${{ github.repository }}/cards/$f.svg" || rm -f "dist/$f.svg"
+          done
 
-      # Each card is generated here and stored in the repo, so the README no
-      # longer depends on a third-party server. If a card fails (for example a
-      # rate limit), the previous file is kept and the other cards still update.
       - name: Stats card
         continue-on-error: true
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           options: username=jeevanba273&show_icons=true&theme=tokyonight
-          path: assets/cards/stats.svg
+          path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
@@ -40,25 +45,30 @@ jobs:
         with:
           card: top-langs
           options: username=jeevanba273&layout=compact&langs_count=8&hide_border=true&custom_title=Languages%20I%20Use&bg_color=00000000&text_color=6FA4FC&title_color=6FA4FC
-          path: assets/cards/top-langs.svg
+          path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
+      # The trophy needs a personal token (no scopes) in the CARDS_TOKEN secret;
+      # the built-in token cannot read the profile data it uses.
       - name: Trophy card
         continue-on-error: true
-        uses: ryo-ma/github-profile-trophy@2ba2fe648c4e9b17d66e01bec285e083ca1824d3 # v1.0
+        uses: ryo-ma/github-profile-trophy@43736b50a82fca73c8df1c81abb40aa03519975c # master 2026-10-27, supports theme
         with:
           username: jeevanba273
-          output_path: assets/cards/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: dist/trophy.svg
+          token: ${{ secrets.CARDS_TOKEN }}
           theme: algolia
 
-      - name: Commit changed cards
-        run: |
-          [ -d assets/cards ] || exit 0
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/cards
-          git diff --cached --quiet && exit 0
-          git commit -m "Update profile cards"
-          git push
+      - name: Publish to the cards branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: cards
+          build_dir: dist
+          keep_history: false
+          author: jeevanba273 <jeevanscience273@gmail.com>
+          committer: jeevanba273 <jeevanscience273@gmail.com>
+          commit_message: Update profile cards
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
